@@ -55,6 +55,9 @@ p::first-letter{
     color: gold;
 }
 
+h2{
+    text-align: center;
+}
 @media (min-width:1024px) {
     nav img{
         width: 5vw;
@@ -75,5 +78,9 @@ p::first-letter{
     }
     main p{
         width: 50vw;
+    }
+    section{
+        display: flex;
+        justify-content: space-around;
     }
 }
