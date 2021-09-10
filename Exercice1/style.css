@@ -54,3 +54,26 @@ p .hexadec{
 p::first-letter{
     color: gold;
 }
+
+@media (min-width:1024px) {
+    nav img{
+        width: 5vw;
+    }
+    nav{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-right: 5vw;
+        margin-left: 5vw;
+    }
+    .imagedeco{
+        height: 80vh;
+        width: 99vw;
+    }
+    main{
+        display: flex;
+    }
+    main p{
+        width: 50vw;
+    }
+}
