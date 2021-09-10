@@ -1,0 +1,56 @@
+@font-face {
+    font-family: inter-regular;
+    src: url(/font/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: inter-bold;
+    src: url(/font/Inter-ExtraBold.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: inter-regular;
+}
+
+nav{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+nav img{
+    width: 30vw;
+}
+
+.imagedeco{
+    width: 100vw;
+}
+
+p{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    line-height: 3rem;
+    letter-spacing: 0.5rem;
+
+}
+
+span:nth-child(1){
+    font-family: inter-bold;
+}
+span:nth-child(3){
+    font-family: inter-bold;
+}
+
+span:nth-child(2){
+    text-decoration: line-through;
+}
+
+p .hexadec{
+    font-family: inter-regular;
+    font-style: italic;
+}
+
+p::first-letter{
+    color: gold;
+}
