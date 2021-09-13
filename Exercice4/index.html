@@ -19,10 +19,43 @@
             <div class="navbar-nav">
                 <a class="nav-link" href="#">Chmod</a>
                 <a class="nav-link" href="#">Chown</a>
+                <a class="nav-link" href="#">Les droits d'écritures</a>
             </div>
         </div>
     </nav>
+    <h2>Chmod</h2>
+    <h3>Les types,d'utilisateurs :</h3>
+    <ul">
+        <li>Le propiétaire du fichier (user)</li>
+        <li>Le groupe du propriétaire du fichier (group)</li>
+        <li>Les autres utilisateurs, ou encore le reste du monde (others)</li>
+    </ul>
+    <h3>Les types de droits</h3>
+    <ul>
+        <li>r : droit de lecture (read)</li>
+        <li>w : droit d'écriture (write)</li>
+        <li>x : droit d'exécution (eXecute)</li>
+    </ul>
 
+    <h2>Chown</h2>
+    <p>chown est un appel système et une commande UNIX (norme POSIX1) nécessitant les droits de l'utilisateur racine (root)
+    pour changer le propriétaire d'un fichier ou d'un dossier (de l'anglais change the owner).
+    
+    Traditionnellement, les UNIX System V permettent au propriétaire de changer le possesseur d'un fichier, mais dans la
+    tradition BSD et sous GNU/Linux, seul root peut changer le propriétaire d'un fichier2, notamment pour éviter qu'un
+    utilisateur échappe au quotas disque en donnant ses fichiers à un autre utilisateur.</p>
+
+    <h2>Les droits d'écritures</h2>
+    <ul>
+        <li>0 : - - - (aucun droit)</li>
+        <li>1 : - - x (exécution)</li>
+        <li>2 : - w - (écriture)</li>
+        <li>3 : - w x (écriture et exécution)</li>
+        <li>4 : r - - (lecture seule)</li>
+        <li>5 : r - x (lecture et exécution)</li>
+        <li>6 : r w - (lecture et écriture)</li>
+        <li>7 : r w x (lecture, écriture et exécution)</li>
+    </ul>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
