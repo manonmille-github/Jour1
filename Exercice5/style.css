@@ -1,0 +1,12 @@
+div {
+    height: 25rem;
+    width: 25rem;
+    background-color: rgb(116, 208, 241);
+}
+
+.divstylechange{
+    height: 25rem;
+    width: 25rem;
+    background-color: rgb(222, 49, 99);
+    border-radius: 50%;
+}
