@@ -1,0 +1,16 @@
+li{
+    border:solid gold 2px;
+    list-style: none;
+    width: 20vw;
+    border-radius: 5px;
+    margin-bottom: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    text-align: center;
+}
+li:hover{
+    border:solid red 5px;
+}
+li:nth-child(4):hover{
+    border: solid green 5px;
+}
