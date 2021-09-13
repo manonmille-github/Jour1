@@ -15,4 +15,38 @@ Objectif : Réaliser une page web responsive au design moderne comprenant :
                     - chaque majuscule doit avoir une couleur différentes
                 - il doit y avoir le code binaire et hexadécimal de mon année de naissance ainsi que l'explication des calculs
 Techno utilisé : - Flexbox uniquement
-                 - HTML/CSS uniquement (pas de framework)    
+                 - HTML/CSS uniquement (pas de framework)
+
+
+Exercice 2 :
+sujet : Les animantions css
+objectif : Réaliser une page responsive au design moderne contentant :  
+                - un élément au format svg qui se doit d'être animé
+                - une section dont la taille est la motié de l'écran. Dans celle-ci il doit y avoir 2 paragarphes.
+                    - l'un contenant une question l'autre la réponse
+                    - 2 annimations css sur ces même paragaphe mais différente entre elle et celle du svg.
+                    - le paragraphe de la réponse a une animation infinie
+
+outils utilisé :
+                - HTML et CSS uniquement
+                - Grid uniquement
+                - pas de framework ni de librairy
+
+
+Exercice 3 :
+sujet : Les Sélecteurs CSS
+Objectif : Réaliser une page responsive au design moderne contenant :
+            - au minimum 1 titre de niveau 1
+            - 3 titres de niveau 2
+            - 2 titres de niveau 3
+            - deux sections
+                - la première contient un div contenant elle même une paragraphe
+                - la deuxième section contient contient une liste de 4 réponses
+                        - Les 4 reponses doivent être alignées et stylisées comme des bouttons (il ne fallait pas utilisé la balise boutton)
+                        - au hover des réponses la bordure du bouton change de couleur et de taille.
+                        - différencier le hover de la bonnes et des mauvaises réponses.
+            - il ne doit y avoir aucune class ou id dans le html
+Outils utilisé : - HTML / CSS uniquemeny
+                 - Felxbox ou grid
+                 - pas de librairy
+                 - pas de Framework
